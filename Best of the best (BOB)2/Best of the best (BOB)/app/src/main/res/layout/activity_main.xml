@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#93C8A2"
+    tools:context=".MainActivity"
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:fontFamily="serif"
+        android:text="Добро пожаловать в Копилку - \nваш помощник в ведении финансов.\n Давайте начнем."
+        android:textAlignment="center"
+        android:textColor="#2F503B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintVertical_bias="0.162" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Как вас зовут?"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#2F503B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:textColor="#2F503B"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:hint="Введите ваше имя"
+        android:maxLength="20"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите остаток по счету:"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#2F503B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/depositEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="12000.50"
+        android:maxLength="20"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#2F503B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#5AB577"
+        android:fontFamily="serif"
+        android:text="Продолжить"
+        android:textColor="#2F503B"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

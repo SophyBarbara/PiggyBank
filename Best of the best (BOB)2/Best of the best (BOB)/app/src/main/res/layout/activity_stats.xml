@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stats"
+    android:orientation="vertical"
+    android:background="#93C8A2"
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:id="@+id/tvChartName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:clickable="true"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Назад в ЛК"
+        android:textColor="#2F503B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
+        android:layout_width="match_parent"
+        android:layout_height="648dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@id/button"
+        app:layout_constraintTop_toBottomOf="@+id/tvChartName"
+        tools:listitem="@layout/statistics_layout"
+        tools:itemCount="13"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

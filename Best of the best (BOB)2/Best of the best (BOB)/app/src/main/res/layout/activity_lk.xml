@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#93C8A2"
+    tools:context=".adapter.Lk"
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:id="@+id/lk"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="serif"
+        android:text="Ваш Личный кабинет"
+        android:layout_gravity="left"
+        android:textColor="#2F503B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:background="#5AB577"
+        />
+
+    <TextView
+        android:id="@+id/spend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваши траты:"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:layout_gravity="left"
+        android:textColor="#2F503B"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/spendsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#2F503B"
+        android:text="Ваши траты:"
+        android:layout_gravity="center"
+        android:layout_marginTop="-33dp"
+        android:layout_marginLeft="65dp"
+        />
+    <TextView
+        android:id="@+id/positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Остаток:"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="#2F503B"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/positivesum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#2F503B"
+        android:text="Остаток:"
+        android:layout_gravity="center"
+        android:layout_marginTop="-28dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:id="@+id/income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поступления:"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="#2F503B"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/incomesum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#2F503B"
+        android:text="Ваши траты:"
+        android:layout_gravity="center"
+        android:layout_marginTop="-33dp"
+        android:layout_marginLeft="60dp"
+        />
+    <TextView
+        android:id="@+id/popular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Больше всего Вы\nпотратили на:"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="#2F503B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/popularname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-38dp"
+        android:text="Ваши траты:"
+        android:textColor="#2F503B"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кредитная карта:"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="#2F503B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:id="@+id/minusvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#2F503B"
+        android:text="Ваши траты:"
+        android:layout_gravity="center"
+        android:layout_marginTop="-38dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:id="@+id/saved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сумма сбережений:"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="#2F503B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:id="@+id/savedvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#2F503B"
+        android:text="Ваши траты:"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:fontFamily="serif"
+        android:gravity="left"
+        android:text="Уведомление о платеже"
+        android:textColor="#2F503B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#7BB98C"/>
+
+    <TextView
+        android:id="@+id/viewstat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#7BB98C"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:fontFamily="serif"
+        android:gravity="left"
+        android:text="Статистика за этот месяц"
+        android:textColor="#2F503B"
+
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/enterexpence"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:background="#7BB98C"
+        android:fontFamily="serif"
+        android:gravity="left"
+        android:text="Внести расходы/поступления"
+        android:textColor="#2F503B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/viewcat"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="serif"
+        android:gravity="left"
+        android:background="#7BB98C"
+        android:text="Редактировать категории трат"
+        android:textColor="#2F503B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/viewstatyear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:fontFamily="serif"
+        android:gravity="left"
+        android:background="#7BB98C"
+        android:text="Просмотреть статистику за год"
+        android:textColor="#2F503B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
